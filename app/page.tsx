@@ -78,11 +78,10 @@ export default async function Home({
   // then, when done, return next frame
   return (
     <div className="p-4">
-      frames.js starter kit. The Template Frame is on this page, it&apos;s in
-      the html meta tags (inspect source).{" "}
-      <Link href={`/debug?url=${baseUrl}`} className="underline">
-        Debug
+      <Link href="https://shardeum-nft-minting.vercel.app/">
+          <button>Shardeum NFT Minter Page</button>
       </Link>
+      
       <FrameContainer
         postUrl="/frames"
         state={state}
